@@ -14,6 +14,7 @@ pip install -r mixmatch/requirements.txt
 ### Run and label image
 
 #### 1. Copy your images in ROOT_PATH with directory tree below. 
+```bash
    "cifar10" is dataset name.
    Unlabelled-images should be put in "UNLABEL".
    Others folders are named known-label. 
@@ -30,6 +31,7 @@ pip install -r mixmatch/requirements.txt
    ---|--- ship
    ---|--- truck
    ---|--- UNLABEL
+```
 
 #### 2. Git clone MixMatch and install dependencies
    
