@@ -1,5 +1,5 @@
 # mixmatch_script
-Some script to train an semi-labeled dataset with mixmatch and then label them.
+Some script to train an semi-labelled dataset with mixmatch and then label unlabelled images.
 
 ## Install dependencies
 
@@ -15,10 +15,8 @@ pip install -r mixmatch/requirements.txt
 
 #### 1. Copy your images in ROOT_PATH with directory tree below. 
 ```bash
-   "cifar10" is dataset name.
-   Unlabelled-images should be put in "UNLABEL".
-   Others folders are named known-label. 
-   Just labelling 10% of the dataset first can you run those scripts and label other unlabelled.
+   "cifar10" is dataset name.Unlabelled-images should be put in "UNLABEL".Others folders are named known-label.Just labelling 10% of the dataset first can you run those scripts and label other unlabelled.
+
    --- cifar10
    ---|--- airplane
    ---|--- automobile
