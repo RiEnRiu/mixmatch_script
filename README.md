@@ -1,7 +1,9 @@
 # mixmatch_script
 Some script to train an semi-labelled dataset with mixmatch and then label unlabelled images.
-MixMatch code: https://github.com/google-research/mixmatch
-Code for the paper: "MixMatch - A Holistic Approach to Semi-Supervised Learning" by David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver and Colin Raffel.
+
+MixMatch code: https://github.com/google-research/mixmatch. 
+
+Code for the paper: "[MixMatch - A Holistic Approach to Semi-Supervised Learning](https://arxiv.org/abs/1905.02249)" by David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver and Colin Raffel.
 
 ## Install dependencies
 
