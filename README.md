@@ -1,5 +1,5 @@
 # mixmatch_script
-Some script to train an semi-labelled dataset with mixmatch and then label unlabelled images.
+Some scripts help train an semi-labelled dataset with mixmatch and then label unlabelled images.You can also get an trained model.
 
 MixMatch code: https://github.com/google-research/mixmatch. 
 
@@ -22,7 +22,7 @@ pip install opencv-python
 ```bash
    "cifar10" is dataset name. Unlabelled-images should be put in "UNLABEL".
    Others folders are named known-label.Just labelling 10% of the dataset 
-   first can you run those scripts and label other unlabelled.
+   first can you run those scripts to label the rest.
 
    --- cifar10
    ---|--- airplane
