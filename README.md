@@ -18,18 +18,18 @@ pip install -r mixmatch/requirements.txt
    Unlabelled-images should be put in "UNLABEL".
    Others folders are named known-label. 
    Just labelling 10% of the dataset first can you run those scripts and label other unlabelled.
-   ©À©¤©¤ cifar10
-   ©¦?? ©À©¤©¤ airplane
-   ©¦?? ©À©¤©¤ automobile
-   ©¦?? ©À©¤©¤ bird
-   ©¦?? ©À©¤©¤ cat
-   ©¦?? ©À©¤©¤ deer
-   ©¦?? ©À©¤©¤ dog
-   ©¦?? ©À©¤©¤ frog
-   ©¦?? ©À©¤©¤ horse
-   ©¦?? ©À©¤©¤ ship
-   ©¦?? ©À©¤©¤ truck
-   ©¦?? ©¸©¤©¤ UNLABEL
+   --- cifar10
+   ---|--- airplane
+   ---|--- automobile
+   ---|--- bird
+   ---|--- cat
+   ---|--- deer
+   ---|--- dog
+   ---|--- frog
+   ---|--- horse
+   ---|--- ship
+   ---|--- truck
+   ---|--- UNLABEL
 
 #### 2. Git clone MixMatch and install dependencies
    
