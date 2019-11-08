@@ -30,17 +30,25 @@ Code for the paper: "[MixMatch - A Holistic Approach to Semi-Supervised Learning
         |-- truck
         |-- UNLABEL
 
-"cifar10" is dataset name. Unlabelled-images should be put in "UNLABEL". Others folders are named known-label. Just labelling 10% of the dataset first can you run those scripts to auto-label the rest.
+```cifar10``` is dataset name. Unlabelled-images should be put in ```UNLABEL```. Others folders are named known-label. Just labelling 10% of the dataset first can you run those scripts to auto-label the rest.
 
 #### 2. Git clone MixMatch and install dependencies
 
 #### 3. Run train_and_label_image.py
     python3 train_and_label_image.py --dir=$DATASET_PATH$
+
 ```$DATASET_PATH$``` is path to your dataset.
+
 ```train_and_label_image.py``` main process: 
+
 a] Make your dataset into tfrecord.
+
 b] Train with tfrecord.
+
 c] Label images in UNLABEL.
+
 d] You can check right or not and move to labelled dir.
+
 e] Rerun if UNLABEL is not empty.
+
 
