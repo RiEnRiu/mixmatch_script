@@ -81,6 +81,8 @@ def scan_images(data_p):
 def make_tfrecord(data_p):
     dataset_name = os.path.basename(os.path.abspath(data_p))
     out_p = './tfrecord'
+    if os.path.isdir(out_p)==False:
+        os.makedirs(out_p)
     label_tfrecord_name = '{0}-label.tfrecord'.format(dataset_name)
     unlabel_tfrecord_name = '{0}-unlabel.tfrecord'.format(dataset_name)
     class_json_name = '{0}-class.json'.format(dataset_name)
